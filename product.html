@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a e-commerce project for learning">
+    <title>E-commerce project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5de757eba6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list"><a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list"><a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list"><a href="login.html" class="nav_link">log in</a>
+            </li>
+            <li class="nav_list"><a href="log out.html" class="nav_link">log out</a>
+            </li>
+            <li class="nav_list"><a href="contact.html" class="nav_link">contact</a>
+            </li>
+            <li class="nav_list"><a href="profile.html" class="nav_link"><i class="fa-solid fa-user"></i></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list"><a href="" class="nav-brand nav_link">Express</a>
+            </li>
+            <li class="nav-list"><a href="cart.html" class="nav_link"><span><i class="fa-solid fa-cart-shopping"></i></span>
+                cart 2 porduct-$.124.04</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end here -->
+    <main class="flex-center">
+        <div class="main-contant">
+           <section class="product-details flex-center">
+            <div class="product-details-left flex-center">
+                <img src="./img/product1.jpg" alt="">
+            </div>
+            <div class="product-details-right ">
+                <h3 class="product_name">Sony V-4 Headphone</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot red"></span>
+                    <span class="dot black"></span>
+                </p>
+                <p class="product-discription">
+                    <strong>Discription: </strong>
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam reiciendis provident, atque, dolore laudantium 
+                <p class="product-discription">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam reiciendis provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam numquam consequuntur? Mollitia, cupiditate pariatur. Expedita nemo magni odio. Rerum quo maxime dolor ex saepe quaerat consequatur praesentium. Distinctio, minima?
+                </p>
+                <h4 class="product-category">Category: Headphone</h4>
+                <p class="product-rating">Rating: 4.5/5</p>
+                <button class="product-btn">Add to cart</button>
+                <button class="product-btn">Back to shopping</button>
+            </div>
+           </section> 
+        </div>
+    </main>
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">subscribe to news later: </label>
+            <input type="email" id="subscribe" name="subscribe" placeholder="email">
+            <button class=" btn sub-btn">subscribe</button>
+        </div>
+        <div>
+           <p>&copy; copyright 2023 Express ltd  all right reserve </p> 
+        </div>
+    </footer>
+
+    <!-- footer end here -->
+
+    
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
